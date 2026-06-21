@@ -1,0 +1,19 @@
+{
+  "elder_profile": {
+    "name": "张桂兰",
+    "age": 78,
+    "living_alone": true
+  },
+  "baseline": {
+    "avg_sleep_time": "22:15",
+    "avg_wake_time": "06:45",
+    "avg_night_exits": 1.2,
+    "avg_exit_duration_min": 3.5,
+    "abnormal_impact_count_30d": 2
+  },
+  "30d_summary": {
+    "avg_sleep_duration_hours": 7.8,
+    "consistency_score": 84,
+    "night_activity_trend": "stable"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "elder_profile": {
+    "name": "张桂兰",
+    "age": 78,
+    "living_alone": true
+  },
+  "today": {
+    "date": "2025-06-18",
+    "sleep_time": "23:50",
+    "wake_time": "08:10",
+    "night_exits": 4,
+    "max_exit_duration_min": 16,
+    "abnormal_impact": true,
+    "total_sleep_hours": 6.3,
+    "note": "入睡延迟且夜间起床频繁"
+  }
+}

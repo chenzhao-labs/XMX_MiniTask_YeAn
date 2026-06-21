@@ -1,0 +1,53 @@
+[
+  {
+    "id": "normal-night",
+    "name": "普通夜起",
+    "event": {
+      "type": "night_exit",
+      "impact_force": 2.1,
+      "timestamp": "2025-06-18T02:15:33",
+      "location": "卧室",
+      "post_event_activity": "returned_to_bed_after_4min"
+    },
+    "context": {
+      "elder_profile": { "name": "张桂兰", "age": 78, "has_history": false },
+      "tonight_pattern": { "previous_exits": 1, "current_in_bed_duration_min": 45 },
+      "30d_similar_events": 12
+    },
+    "expected_level": 1
+  },
+  {
+    "id": "suspected-fall",
+    "name": "疑似跌倒",
+    "event": {
+      "type": "suspected_fall",
+      "impact_force": 6.8,
+      "timestamp": "2025-06-18T03:22:14",
+      "location": "床旁",
+      "post_event_activity": "minimal_movement_45s"
+    },
+    "context": {
+      "elder_profile": { "name": "张桂兰", "age": 78, "has_history": false },
+      "tonight_pattern": { "previous_exits": 2, "current_in_bed_duration_min": 120 },
+      "30d_similar_events": 1
+    },
+    "expected_level": 3
+  },
+  {
+    "id": "confirmed-fall",
+    "name": "确认跌倒",
+    "event": {
+      "type": "fall",
+      "impact_force": 9.4,
+      "timestamp": "2025-06-18T04:47:09",
+      "location": "客厅",
+      "post_event_activity": "no_activity_120s"
+    },
+    "context": {
+      "elder_profile": { "name": "张桂兰", "age": 78, "has_history": true },
+      "tonight_pattern": { "previous_exits": 0, "current_in_bed_duration_min": 240 },
+      "30d_similar_events": 0
+    },
+    "expected_level": 4
+  }
+]

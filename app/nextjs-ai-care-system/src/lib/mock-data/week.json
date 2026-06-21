@@ -1,0 +1,58 @@
+{
+  "elder_profile": {
+    "name": "张桂兰",
+    "age": 78
+  },
+  "week_data": [
+    {
+      "date": "2025-06-12",
+      "sleep_time": "22:10",
+      "wake_time": "06:40",
+      "night_exits": 1,
+      "max_exit_duration_min": 3
+    },
+    {
+      "date": "2025-06-13",
+      "sleep_time": "22:25",
+      "wake_time": "06:55",
+      "night_exits": 2,
+      "max_exit_duration_min": 5
+    },
+    {
+      "date": "2025-06-14",
+      "sleep_time": "22:05",
+      "wake_time": "06:35",
+      "night_exits": 1,
+      "max_exit_duration_min": 2
+    },
+    {
+      "date": "2025-06-15",
+      "sleep_time": "22:40",
+      "wake_time": "07:10",
+      "night_exits": 3,
+      "max_exit_duration_min": 8
+    },
+    {
+      "date": "2025-06-16",
+      "sleep_time": "23:05",
+      "wake_time": "07:25",
+      "night_exits": 3,
+      "max_exit_duration_min": 11
+    },
+    {
+      "date": "2025-06-17",
+      "sleep_time": "23:20",
+      "wake_time": "07:50",
+      "night_exits": 4,
+      "max_exit_duration_min": 14
+    },
+    {
+      "date": "2025-06-18",
+      "sleep_time": "23:45",
+      "wake_time": "08:05",
+      "night_exits": 4,
+      "max_exit_duration_min": 17
+    }
+  ],
+  "last_week_score": 8
+}
