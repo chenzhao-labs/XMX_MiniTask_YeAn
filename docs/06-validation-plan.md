@@ -26,10 +26,10 @@ gantt
     title Week 1 甘特图
     dateFormat YYYY-MM-DD
     section 硬件
-    搭建Arduino原型      :a1, 2025-07-01, 2d
+    搭建Arduino原型      :a1, 2026-07-01, 2d
     采集行为信号         :a2, after a1, 2d
     section AI
-    搭建Agent工作流      :b1, 2025-07-03, 3d
+    搭建Agent工作流      :b1, 2026-07-03, 3d
     用真实数据测试       :b2, after b1, 2d
 ```
 
